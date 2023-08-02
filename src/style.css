@@ -1,15 +1,15 @@
 
 .leaderBoard {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    font-size: larger;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: larger;
 }
 
 .section {
-    display: flex;
-    flex-direction: row;
-    gap: 4rem;
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
 }
 
 .sectionInner {
