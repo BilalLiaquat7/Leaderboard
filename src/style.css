@@ -1,0 +1,51 @@
+
+.leaderBoard {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: larger;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.sectionInner {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.recentSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: large;
+  gap: 2rem;
+}
+
+.listItem {
+  display: flex;
+  border-style: solid;
+}
+
+.btnRefresh {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+}
+
+.addScore {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 6px;
+}
+
+.btnSubmit {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+}
