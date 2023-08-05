@@ -49,3 +49,18 @@
   width: fit-content;
   display: flex;
 }
+
+.ul {
+  list-style: none;
+}
+
+.listSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.p {
+  display: flex;
+  flex-direction: row;
+}
