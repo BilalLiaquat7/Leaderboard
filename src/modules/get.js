@@ -5,4 +5,4 @@ const get = async (endPoint) => {
   return data;
 };
 
-module.exports = get();
+export default get;

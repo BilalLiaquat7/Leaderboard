@@ -1,4 +1,4 @@
-import { get } from './get.js';
+import get from './get.js';
 
 const btnSubmit = document.getElementById('btnSubmit');
 const list = document.getElementById('game_list');

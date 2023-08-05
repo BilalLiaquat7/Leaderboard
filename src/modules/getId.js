@@ -1,4 +1,4 @@
-const getGameId = async () => {
+export const getGameId = async () => {
   const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games';
   const resp = await fetch(url, {
     method: 'POST',
@@ -14,4 +14,4 @@ const getGameId = async () => {
   localStorage.setItem('game_id', game.result.split(' ')[3]);
 };
 
-module.exports = getGameId();
+export default getGameId;
