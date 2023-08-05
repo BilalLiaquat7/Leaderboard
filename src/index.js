@@ -1,7 +1,7 @@
-import "./style.css";
-import { getGameId } from "./modules/getId.js";
-import { PostGameData, displayGameData } from "./modules/post.js";
+import './style.css';
+import { getGameId } from './modules/getId.js';
+import { displayGameData } from './modules/post.js';
 
-if (!localStorage.getItem("game_id")) getGameId();
+if (!localStorage.getItem('game_id')) getGameId();
 
 displayGameData();
